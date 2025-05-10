@@ -3,12 +3,10 @@
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+ 
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/imran-shaik-892994219/" target="_blank">Imran</a><br>
 <small> October, 2020</small>
 </sub>
 
@@ -113,7 +111,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScr
 
 const jsxElement = <h1>I am a JSX element</h1>
 const welcome = <h1>Welcome to 30 Days of React Challenge</h1>
-const data = <small>Oct 2, 2020</small>
+const data = <small>2025</small>
 ```
 
 The above strange looking code seems like JavaScript and it seems like , but it is not JavaScript and it seems like HTML but not completely an HTML element. It is a mix of JavaScript and an HTML elements. JSX can allow us to use HTML in JavaScript. The HTML element in the JSX above is _h1_ and _small_.
@@ -154,8 +152,8 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
-    <small>Oct 2, 2020</small>
+    <p>Imran</p>
+    <small> 2025</small>
   </header>
 )
 ```
@@ -173,8 +171,8 @@ We comment codes for different reasons and it is also good to know how to commen
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
-    <small>Oct 2, 2020</small>
+    <p>Imran</p>
+    <small>2025</small>
   </header>
 
 */
@@ -255,7 +253,7 @@ The babel library is linked to our document and now we can make use of it. The n
 
 Now the index.html has everything we need to write React code. Let us get the root element using document.querySelect('.root') and assign it to a variable name rootElement. The is the only place we directly interact with DOM.
 
-Now, you knew JSX and JSX element. Let us render the JSX element on the browser, in order to do so we need the React and ReactDOM library. In addition to the React and ReactDOM we need babel to transpile the JSX to JavaScript code. The ReactDOM package has a method render. The render method takes two arguments:a JSX element or a component and the root document. See the code below. [Live on code pen](https://codepen.io/Asabeneh/full/JjdbjqK).
+Now, you knew JSX and JSX element. Let us render the JSX element on the browser, in order to do so we need the React and ReactDOM library. In addition to the React and ReactDOM we need babel to transpile the JSX to JavaScript code. The ReactDOM package has a method render. The render method takes two arguments:a JSX element or a component and the root document. See the code below.
 
 ```html
 <!DOCTYPE html>
@@ -296,7 +294,7 @@ Now, you knew JSX and JSX element. Let us render the JSX element on the browser,
 ![Rendering JSX](../images/rendering_jsx.png)
 
 Let us render more content. To render more content, the JSX element should have more HTML elements. For instance, we can create a header of a website and header may have a title, subtitle, author or date etc. Remember, we can render only one JSX element at a time.
-[Live on code pen](https://codepen.io/Asabeneh/full/QWbGWeY).
+
 
 ```html
 <!DOCTYPE html>
@@ -329,8 +327,8 @@ Let us render more content. To render more content, the JSX element should have 
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
-          <small>Oct 2, 2020</small>
+          <p>Imran</p>
+          <small>2025</small>
         </header>
       )
 
@@ -382,8 +380,8 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
-    <small>Oct 2, 2020</small>
+    <p>Imran</p>
+    <small>2025</small>
   </header>
 )
 
@@ -449,8 +447,8 @@ Now, let us put everything together and render it to the browser. [Live on code 
           <h1>Welcome to 30 Days Of React</h1>
           <h2>Getting Started React</h2>
           <h3>JavaScript Library</h3>
-          <p>Asabeneh Yetayeh</p>
-          <small>Oct 2, 2020</small>
+          <p>Imran</p>
+          <small>2025</small>
         </header>
       )
 
@@ -469,7 +467,7 @@ Now, let us put everything together and render it to the browser. [Live on code 
       // JSX element, footer
       const footer = (
         <footer>
-          <p>Copyright 2020</p>
+          <p>Copyright 2025</p>
         </footer>
       )
 
@@ -514,8 +512,8 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
-    <small>Oct 2, 2020</small>
+    <p>Imran</p>
+    <small>2025</small>
   </header>
 )
 
@@ -528,8 +526,8 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
-    <small>Oct 2, 2020</small>
+    <p>Imran</p>
+    <small>2025</small>
   </header>
 )
 ```
@@ -598,8 +596,8 @@ Now, you know how to use the inline style and how to use className. Let us style
             <h1>Welcome to 30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Asabeneh Yetayeh</p>
-            <small>Oct 2, 2020</small>
+            <p>Imran</p>
+            <small>2025</small>
           </div>
         </header>
       )
@@ -765,7 +763,7 @@ Instead of style object using regular styling method is more easy than the one a
             <h1>Welcome to 30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Instructor: Asabeneh Yetayeh</p>
+            <p>Instructor: Imran</p>
             <small>Date: Oct 1, 2020</small>
           </div>
         </header>
@@ -858,7 +856,7 @@ const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
 const firstName = 'Asabeneh'
 const lastName = 'Yetayeh'
-const date = 'Oct 2, 2020'
+const date = '2025'
 
 // JSX element, header
 
@@ -1043,7 +1041,7 @@ Now, let us put everything together. Here, in the example below, the data is inj
         firstName: 'Asabeneh',
         lastName: 'Yetayeh',
       }
-      const date = 'Oct 2, 2020'
+      const date = '2025'
 
       // JSX element, header
       const header = (
@@ -1253,7 +1251,7 @@ In the following code example, the list is now containing list elements and it i
         firstName: 'Asabeneh',
         lastName: 'Yetayeh',
       }
-      const date = 'Oct 2, 2020'
+      const date = '2025'
 
       // JSX element, header
       const header = (
@@ -1459,7 +1457,7 @@ As you can see above, now the lists are formatted properly, but there is a warni
         firstName: 'Asabeneh',
         lastName: 'Yetayeh',
       }
-      const date = 'Oct 2, 2020'
+      const date = '2025'
 
       // JSX element, header
       const header = (
